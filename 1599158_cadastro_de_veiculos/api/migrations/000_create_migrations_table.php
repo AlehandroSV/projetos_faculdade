@@ -1,6 +1,6 @@
 <?php
 
-function up($pdo)
+function up_000_create_migrations_table($pdo)
 {
     $pdo->exec("
         CREATE TABLE IF NOT EXISTS migrations (
