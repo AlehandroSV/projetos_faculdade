@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastro de Veículos</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Cadastro de Veículos</h1>
+
+    <form id="vehicleForm">
+      <div>
+        <label>Placa</label>
+        <input type="text" name="placa" required />
+      </div>
+
+      <div>
+        <label>Marca</label>
+        <input type="text" name="marca" required />
+      </div>
+
+      <div>
+        <label>Modelo</label>
+        <input type="text" name="modelo" required />
+      </div>
+
+      <div>
+        <label>Ano Fabricação</label>
+        <input type="number" name="ano_fabricacao" required />
+      </div>
+
+      <div>
+        <label>Ano Modelo</label>
+        <input type="number" name="ano_modelo" required />
+      </div>
+
+      <div>
+        <label>Cor</label>
+        <input type="text" name="cor" required />
+      </div>
+
+      <div>
+        <label>Combustível</label>
+        <input type="text" name="combustivel" required />
+      </div>
+
+      <div>
+        <label>Quilometragem</label>
+        <input type="number" name="quilometragem" required />
+      </div>
+
+      <div>
+        <label>Chassi</label>
+        <input type="text" name="chassi" required />
+      </div>
+
+      <div>
+        <label>Renavam</label>
+        <input type="text" name="renavam" required />
+      </div>
+
+      <div>
+        <label>Data de Cadastro</label>
+        <input type="date" name="data_cadastro" required />
+      </div>
+
+      <div>
+        <label>Observações</label>
+        <textarea name="observacoes"></textarea>
+      </div>
+
+      <button type="submit">Cadastrar Veículo</button>
+    </form>
+
+    <br />
+
+    <a href="index.html">Ver veículos cadastrados</a>
+
+    <script src="./create.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Veículos Cadastrados</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Veículos Cadastrados</h1>
+
+    <a href="create.html">
+      <button>Cadastrar Novo Veículo</button>
+    </a>
+
+    <br /><br />
+
+    <table border="1" width="100%" id="vehiclesTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Placa</th>
+          <th>Marca</th>
+          <th>Modelo</th>
+          <th>Ano Fabricação</th>
+          <th>Ano Modelo</th>
+          <th>Cor</th>
+          <th>Combustível</th>
+          <th>Quilometragem</th>
+          <th>Chassi</th>
+          <th>Renavam</th>
+          <th>Data Cadastro</th>
+          <th>Observações</th>
+        </tr>
+      </thead>
+
+      <tbody id="vehiclesBody"></tbody>
+    </table>
+
+    <script src="./list.js"></script>
+  </body>
+</html>
